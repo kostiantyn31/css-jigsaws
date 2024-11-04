@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+        position: relative;
+        width: 100vw;
+        height: calc(100vh - 100px);
+        overflow: hidden;
+}
+
+#ball {
+        position:absolute;
+        display:block;
+        padding:50px;
+        background-image: url('./img/ball.png');
+        background-size:contain;
+}
