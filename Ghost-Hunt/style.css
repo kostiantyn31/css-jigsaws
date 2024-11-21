@@ -4,8 +4,16 @@ html{
   width:100%;
 }
 
-img {
+#project {
+  width:60%;
+  padding:20px;
+  text-align:center;
+  margin:auto;
+}
+
+#set img {
   position:absolute;
+  width: 30px;
 }
 
 #set {
@@ -20,71 +28,71 @@ img {
 
 /* ghosts */
 
-#ghost1 {
-  bottom:-100px;
-  left:40px;
-}
+    /* people */
+    #stardew1, #stardew2, #stardew3, #stardew4, #stardew5 {
+      visibility:visible;
+    
+    }
+    /* ghosts */
+    #ghost1, #ghost2, #ghost3, #ghost4, #ghost5 {
+      opacity:0.1;
+  
+    }
+    
+  #ghost1 {
+    top: 150px;
+  }
+  
+  #ghost2 {
+    top: 315px;
+    left: 145px;
+  }
 
-#ghost2 {
-  left:100px;
-  bottom:-250px;
-}
+  #ghost3 {
+    top: 315px;
+    left: 375px;
+  }
 
+  #ghost3 {
+    top: 150px;
+    left: 500px;
+  }
+  
+  #ghost4 {
+    top: 315px;
+    left: 375px;
+  }
 
-#ghost3 {
-  left:400px;
-  bottom:-105px;
-}
+  #ghost5 {
+    top: 280px;
+    left: 580px;
+  }
+  
+  /*people*/
 
+  
+  #stardew1{
+    top: 150px;
+    left:20px;
+  }
 
-#ghost4 {
-  left:440px;
-  bottom:-210px;
-}
+  #stardew2{
+    top: 315px;
+    left: 165px;
+  }
 
-#ghost5 {
-  left:210px;
-  bottom:-250px;
-}
+  #stardew3{
+    top: 150px;
+    left: 520px;
+   
+  }
 
-/*people*/
+  #stardew4{
+    top: 315px;
+    left: 355px;
+  }
 
-#stardew1 {
-  bottom:-100px;
-}
-
-#stardew2 {
-  bottom:-290px;
-  left:40px;
-}
-
-#stardew3 {
-  bottom:-200px;
-  left:10px;
-}
-
-#stardew4 {
-  bottom:-200px;
-  right:70px;
-}
-
-#stardew4-2 {
-  bottom:-130px;
-  left:60px;
-}
-
-#stardew1-2 {
-  bottom:-120px;
-  left:63px;
-}
-
-#stardew3-2 {
-  bottom:-130px;
-  left:67px;
-}
-
-#stardew3-3 {
-  bottom:-195px;
-  left:120px;
-}
-
+  #stardew5 {
+    top: 280px;
+    left: 560px;
+  }
