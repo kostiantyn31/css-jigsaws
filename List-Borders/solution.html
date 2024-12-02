@@ -9,6 +9,46 @@
   <link href = "../style.css" rel = "stylesheet" type = "text/css" />
    <style>
 
+#one, #two, #tree, #four, #five, #six {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 15px;
+}
+
+#timestables {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 15px;
+  margin-right: 1200px;
+}
+
+li {
+  display: inline-block;
+  
+}
+
+#one, #two, #tree, #four, #five, #six {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+}
+
+#one:hover, #two:hover, #tree:hover, #four:hover, #five:hover, #six:hover {
+  background-color: black; 
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
     /* Add these styles in order */
      
     /* Center the title "High Factor Times Tables */
@@ -47,8 +87,9 @@
   <div id="timestables">
     <h2>High Factor Times Tables</h2>
     <ol id="tables">
+      <div id="onee">
       <li>
-        <ol>
+        <ol id="one">
           <li><h4>7</h4>
           <li>7 X 7 = 49</li>
           <li>7 X 8 = 56</li>
@@ -59,7 +100,7 @@
         </ol>
       </li>
       <li> 
-          <ol>
+          <ol id="two">
             <li><h4>8</h4>
             <li>8 X 7 = 56</li>
             <li>8 X 8 = 64</li>
@@ -70,7 +111,7 @@
           </ol>
       </li>  
       <li>
-        <ol>
+        <ol id="tree">
           <li><h4>9</h4>
           <li>9 X 7 = 63</li>
           <li>9 X 8 = 72</li>
@@ -80,39 +121,42 @@
           <li>9 X 12 = 108</li>
         </ol>
       </li>
+    </div>
+    <div id="twoo">
       <li>
-      <ol>
-        <li><h4>10</h4>
-        <li>10 X 7 = 70</li>
-        <li>10 X 8 = 80</li>
-        <li>10 X 9 = 90</li>
-        <li>10 X 10 = 100</li>
-        <li>10 X 11 = 110</li>
-        <li>10 X 12 = 120</li>
-      </ol>
+        <ol id="four">
+          <li><h4>10</h4>
+          <li>10 X 7 = 70</li>
+          <li>10 X 8 = 80</li>
+          <li>10 X 9 = 90</li>
+          <li>10 X 10 = 100</li>
+          <li>10 X 11 = 110</li>
+          <li>10 X 12 = 120</li>
+        </ol>
     </li>  
     <li>
-      <ol>
-        <li><h4>11</h4>
-        <li>11 X 7 = 77</li>
-        <li>11 X 8 = 88</li>
-        <li>11 X 9 = 99</li>
-        <li>11 X 10 = 110</li>
-        <li>11 X 11 = 121</li>
-        <li>11 X 12 = 132</li>
-        </ol>
-      </li> 
+        <ol id="five">
+          <li><h4>11</h4>
+          <li>11 X 7 = 77</li>
+          <li>11 X 8 = 88</li>
+          <li>11 X 9 = 99</li>
+          <li>11 X 10 = 110</li>
+          <li>11 X 11 = 121</li>
+          <li>11 X 12 = 132</li>
+          </ol>
+        </li> 
       <li>
-        <ol>
-          <li><h4>12</h4>
-          <li>12 X 7 = 84</li>
-          <li>12 X 8 = 96</li>
-          <li>12 X 9 = 108</li>
-          <li>12 X 10 = 120</li>
-          <li>12 X 11 = 132</li>
-          <li>12 X 12 = 144</li>
-        </ol>
+          <ol id="six">
+            <li><h4>12</h4>
+            <li>12 X 7 = 84</li>
+            <li>12 X 8 = 96</li>
+            <li>12 X 9 = 108</li>
+            <li>12 X 10 = 120</li>
+            <li>12 X 11 = 132</li>
+            <li>12 X 12 = 144</li>
+          </ol>
       </li> 
+    </div>
     </ol>
   </div>
 </body>
